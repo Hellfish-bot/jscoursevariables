@@ -11,6 +11,24 @@ let blockLet = "I'm a block-scoped let";
 const blockConst = "I'm a block-scoped const";
 }
 
+{
+// Practice Block scope
+var practiceblockVar = "I'm a new block-scoped var";
+let practiceblockLet = "I'm a new block-scoped let";
+const practiceblockConst = "I'm a new block-scoped const";
+}
+
+var practiceblockVar = "New meaning var";
+let practiceblockLet = "New meaning let";
+const practiceblockConst ="New meaning const";
+
+// Practice Block scope
+console.log(practiceblockVar);
+console.log(practiceblockVar);
+console.log(practiceblockVar);
+console.log(practiceblockLet);
+console.log(practiceblockConst);
+
 // Global scope
 console.log(globalVar); // Output: "I'm a global variable"
 console.log(globalLet); // Output: "I'm also global, but scoped with let"
